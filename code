@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+long long int binary(long long int)
+{
+return output;
+}
+
+int main()
+{ long long int input;
+  cin>>input;
+  binary(input);
+  cout<<output;
+return 0;
+}
