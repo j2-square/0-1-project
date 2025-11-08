@@ -1,15 +1,23 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-long long int binary(long long int)
+string binary(string input)
 {
-return output;
+    string output = input;
+
+    // YOU WILL ADD your mapping logic here later
+    // For now, it simply returns the same 0/1/space sequence
+
+    return output;
 }
 
 int main()
-{ long long int input;
-  cin>>input;
-  binary(input);
-  cout<<output;
-return 0;
+{
+    string input;
+    getline(cin, input);   // reads 0,1,space exactly as typed
+
+    string output = binary(input);
+    cout << output<<endl;
+
+    return 0;
 }
